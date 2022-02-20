@@ -1,0 +1,15 @@
+#content { 
+    min-height: 500px;
+    color: white;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+#content ul {
+    list-style: none;
+}
+
+#content p {
+    padding: 0;
+    margin: 0;
+}

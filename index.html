@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- vditor -->
+    <link rel="stylesheet" href="assets/css/vditor/vditor.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vditor/dist/index.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+    <script src="assets/js/header.js"></script>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/content.css">
+    <style>
+        :root {
+            --main-bg-color: rgb(128, 128, 128);
+            /* 深色背景 */
+            --main-text-color: rgb(255, 255, 255);
+            /* 浅色文字 */
+        }
+
+        @media not all and (prefers-color-scheme: dark) {
+            :root:not([theme="dark"]) {
+                --main-bg-color: rgb(255, 255, 255);
+                /* 浅色背景 */
+                --main-text-color: rgb(54, 54, 54);
+                /* 深色文字 */
+            }
+        }
+
+        html,
+        body {
+            margin: 0;
+            background-color: var(--main-bg-color);
+            color: var(--main-text-color);
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo"></div>
+        <div class="content">
+            <ul>
+                <li>Home</li>
+                <li>Research</li>
+                <li>People</li>
+                <li>Publications</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <ul>
+                <li>
+                    <a href="#"><img
+                            src="https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01/01ab6619093f45388d66736ec22e5885.webp"></a>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://static.wixstatic.com/media/1d2439_8cb54e94ced141028f0fadb3eed9ce45~mv2_d_2905_2904_s_4_2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01/1d2439_8cb54e94ced141028f0fadb3eed9ce45~mv2_d_2905_2904_s_4_2.webp"></a>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://static.wixstatic.com/media/1d2439_3fe4ef8fac6f416184bec7a48bfde4ba~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01/1d2439_3fe4ef8fac6f416184bec7a48bfde4ba~mv2.webp"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+    </div>
+    <div id="footer">
+        <div class="toTop">
+            <div
+                style="transform: rotate(180deg); width: 28px; height: 16px; fill: white; position: relative; left: calc(50% - 8px);">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="6.443 47.497 187.114 105.008"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="6.443 47.497 187.114 105.008" role="presentation"
+                    aria-hidden="true">
+                    <g>
+                        <path
+                            d="M174.476 51.261l-74.704 74.193L25.578 50.75c-4.287-4.316-11.566-4.341-15.882-.054s-4.341 11.565-.055 15.882l82.107 82.673c4.287 4.316 11.566 4.341 15.882.055l82.673-82.107c4.316-4.287 4.341-11.566.055-15.882s-11.235-4.342-15.882-.056z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <br />
+            <div
+                style="color: white; font-size: 10px; width: auto; position: relative; left: 10px; display: inline-block;">
+                BACK TO TOP</div>
+        </div>
+        <div class="c">
+            <div class="cImg">
+                <a href="#">
+                    <img src="https://www.njnu.edu.cn/images/nnu-logo.png" style="width: 203px; height: 52px;" />
+                </a>
+            </div>
+            <div class="cLogo">
+                <p>
+                    <a>
+                        <img src="" alt="undetermined" style="height: 106px; width: 236px;">
+                    </a>
+                </p>
+                <p>no word</p>
+            </div>
+            <div class="cText">
+                <p>Nanjing Normal University</p>
+                <p>Social cognitive psychology</p>
+                <p>Other introduction</p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 3M Lab 2022
+        </div>
+    </div>
+</body>
+<script>
+    fetch("doc/Home.md").
+        then(response => response.text()).
+        then(markdown => {
+            Vditor.preview(
+                document.getElementById("content"),
+                markdown,
+                {
+                    speech: {
+                        enable: false,
+                    },
+                    anchor: 1,
+                    theme: {
+                        "current": window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light",
+                        "path": "assets/css/vditor"
+                    },
+                    markdown: {
+                        "paragraphBeginningSpace": true,
+                        "toc": true
+                    },
+                    outline: {
+                        enable: true,
+                        position: "right"
+                    }
+                }
+            )
+        });
+</script>
+
+</html>

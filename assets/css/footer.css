@@ -1,0 +1,60 @@
+#footer { 
+    background-color: rgb(61,155,233);
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+#footer .toTop { 
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+#footer .c {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+#footer .cLogo { 
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    height: 100px;
+}
+
+#footer .cLogo p {
+    padding: 0;
+    margin: 0; 
+}
+
+#footer .cText {
+    text-align: right;
+    margin: 0 20px 0 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+#footer .cText p {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer .copyright { 
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: 100;
+}

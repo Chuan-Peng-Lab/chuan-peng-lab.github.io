@@ -1,0 +1,64 @@
+/* #header .logo {
+    width: calc(10%);
+    height: 64px;
+    background-color: rgb(255,255,0,0.6);
+    background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+} */
+
+#header {
+    background-color: rgb(61,155,233);
+    width: 100%;
+    height: 30px;
+    color: white;
+    user-select: none;
+    overflow: hidden;
+    padding: 2% 0 2% 0;
+}
+
+#header div {
+    display: inline-block;
+}
+
+#header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    max-height: 30px;
+}
+
+/* Twitter & OSF & Github */
+#header .contact {
+    position: absolute;
+    width: auto;
+    overflow: hidden;
+    left: calc(80%);
+}
+
+#header .contact li {
+    display: inline-block;
+    padding: 0 5px 0 0;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+/* the list */
+#header .content { 
+    width: calc(75%);
+}
+
+#header .content li { 
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    width: calc(20%);
+    line-height: 30px;
+}
+
+#header .content ul li:hover {
+    border-bottom: 3px solid #e4c17e;
+}
