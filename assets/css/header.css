@@ -35,7 +35,7 @@
     position: absolute;
     width: auto;
     overflow: hidden;
-    left: calc(80%);
+    right: 10px;
 }
 
 #header .contact li {

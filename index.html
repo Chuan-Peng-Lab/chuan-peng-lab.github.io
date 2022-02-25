@@ -8,27 +8,20 @@
     <!-- jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/header.js"></script>
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/content.css">
     <style>
-        :root {
-            --main-bg-color: rgb(128, 128, 128);
-            /* 深色背景 */
-            --main-text-color: rgb(255, 255, 255);
-            /* 浅色文字 */
+        :root[theme="light"]{
+            --main-bg-color: #fff;
+            --main-text-color: #000;
         }
-
-        @media not all and (prefers-color-scheme: dark) {
-            :root:not([theme="dark"]) {
-                --main-bg-color: rgb(255, 255, 255);
-                /* 浅色背景 */
-                --main-text-color: rgb(54, 54, 54);
-                /* 深色文字 */
-            }
+        :root[theme="dark"]{
+            --main-bg-color: rgb(49, 49, 49);
+            --main-text-color: #fff;
         }
-
         html,
         body {
             margin: 0;
@@ -41,7 +34,7 @@
 </head>
 
 <body>
-    <div id="header">
+    <div id="header" class="darkmode-ignore">
         <div class="logo"></div>
         <div class="content">
             <ul>
@@ -71,7 +64,7 @@
     </div>
     <div id="content">
     </div>
-    <div id="footer">
+    <div id="footer" class="darkmode-ignore">
         <div class="toTop">
             <div
                 style="transform: rotate(180deg); width: 28px; height: 16px; fill: white; position: relative; left: calc(50% - 8px);">
@@ -116,32 +109,7 @@
     </div>
 </body>
 <script>
-    fetch("doc/Home.md").
-        then(response => response.text()).
-        then(markdown => {
-            Vditor.preview(
-                document.getElementById("content"),
-                markdown,
-                {
-                    speech: {
-                        enable: false,
-                    },
-                    anchor: 1,
-                    theme: {
-                        "current": window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light",
-                        "path": "assets/css/vditor"
-                    },
-                    markdown: {
-                        "paragraphBeginningSpace": true,
-                        "toc": true
-                    },
-                    outline: {
-                        enable: true,
-                        position: "right"
-                    }
-                }
-            )
-        });
+    changeTheme(false);
 </script>
 
 </html>

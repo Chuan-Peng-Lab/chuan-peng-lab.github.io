@@ -8,14 +8,18 @@ click on our pictures to read more about us
     <ul>
         <li>
             <div>
-                <p>name</p>
-                <p>company</p>
-                <p><img alt="name1" src="" style="width: 106px;height: 146px;object-fit: cover;object-position: 50% 50%;"/></p>
+                <a href="https://huchuanpeng.com/">
+                    <p>Hu Chuan-Peng</p>
+                    <p>Faculty member</p>
+                    <p><img alt="name1"
+                            src="https://huchuanpeng.com/authors/admin/avatar_huc604dd19b291b4341ed44c84d28d69e6_24439_250x250_fill_q90_lanczos_center.jpg"
+                            style="width: 106px;height: 146px;object-fit: cover;object-position: 50% 50%;" />
+                    </p>
+                </a>
+                <a></a>
             </div>
         </li>
     </ul>
-
-
 </div>
 
 
