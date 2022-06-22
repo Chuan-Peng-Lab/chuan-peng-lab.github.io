@@ -8,16 +8,14 @@
 #  education3:
 #  education4:
 
-- name: Thijs van den Munckhof
-  photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
-
-- name: João van der Ven
-  photo: rock.jpg
+- name: Cheng Dong Xu
   info: BSc student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+  email: amm@mupsy.net
+  number_educ: 1
+  education1: Applied Psychology, Huzhou University
+
+- name: Cheng Dong Xu
+  info: BSc student
+  email: amm@mupsy.net
+  number_educ: 1
+  education1: Applied Psychology, Huzhou University

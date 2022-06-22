@@ -7,3 +7,15 @@
   education3: Doctor of social psychology, 2017, Tsinghua University
   education4:
   education5:
+
+- name: Xin Yang Wang
+  describe: The ideal is to find a field of study you love and make a living from it. In my spare time, I like to climb mountains and look at the sea to chat with people and find delicious food.
+  info: Visual perception; Theoretical construction
+  number_educ: 1
+  education1: Master of psychology, University of Edinburgh
+
+- name: Helen(Zheng Liu)
+  describe: A person from Sichuan and Chongqing who doesn't eat spicy food. I hope I can travel a lot on the scientific research Road (lie flat as soon as possible). Not long after I entered the programming pit, I usually either debug or write bugs. Hobbies include the sea, snow mountains, soup making, writing pain literature and basking in the sun.
+  info: Self information processing; Meta research; Theoretical construction
+  number_educ: 1
+  education1: Master of educational psychology, University of Sydney
