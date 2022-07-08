@@ -6,3 +6,12 @@
     url: https://arxiv.org/abs/2205.10346
     display: arXiv:2205.10346 (2022)
   highlight: 1
+  
+- title: "123"
+  image: ""
+  description: no thing
+  authors: HCP
+  link:
+    url: https://baidu.com
+    display: arXiv:
+  hightlight: 1
