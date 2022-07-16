@@ -12,12 +12,11 @@ We are the meta self laboratory established under the leadership of Professor Hu
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
     </ol>
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/imgs/slider/lab.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/imgs/slider/bg.png" alt="Slide 2" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -30,11 +29,11 @@ We are the meta self laboratory established under the leadership of Professor Hu
   </a>
 </div>
 
-**Meta** For the re statistics of many existing empirical literature, through the statistical analysis of the statistical indicators in the relevant literature using the corresponding statistical formula, the real correlation between the two variables can be analyzed according to the statistical significance obtained. (Source: https://baike.baidu.com/item/%E5%85%83%E5%88%86%E6%9E%90/2566761)
+**Metascience** Metascience (also known as meta-research) is the use of scientific methodology to study science itself. Metascience seeks to increase the quality of scientific research while reducing inefficiency. It is also known as "research on research" and "the science of science", as it uses research methods to study how research is done and find where improvements can be made. (Source: https://en.wikipedia.org/wiki/Metascience)
 
-**Measure** According to a certain theory, through a certain operation procedure, a quantitative value is determined for the traits that are difficult to quantify.
+**Measurement** Measurement is the quantification of attributes of an object or event, which can be used to compare with other objects or events. (Source: https://en.wikipedia.org/wiki/Measurement)
 
-**Model** Through subjective consciousness, with the help of entity or virtual expression, it forms an object that objectively expounds the morphological structure to express the purpose. (Source: https://baike.baidu.com/item/%E6%A8%A1%E5%9E%8B/1741186)
+**Modeling**A model is an informative representation of an object, person or system. The term originally denoted the plans of a building in late 16th-century English, and derived via French and Italian ultimately from Latin modulus, a measure. (Source: https://en.wikipedia.org/wiki/Model)
 
 We are located in the school of psychology of Nanjing Normal University, where Mr. Hu chuanpeng works, Our members are distributed all over the world.
 
