@@ -1,8 +1,15 @@
-- title: "Determination of the charge transfer when tunneling into putative Majorana modes in individual vortices in FeTe0.55Se0.045"
-  image: imageaward_edited.png
-  description: Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.
-  authors: J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan
+- title: "Chinese Open Science Network (COSN): Building an Open Science community in a developing country"
+  description: Open Science is becoming a mainstream scientific ideology in psychology and related fields. However, due to inadequate research infrastructures, limited resources, and a lack of local support amongst various other difficulties, researchers - especially early career researchers (ECRs) in developing countries - are facing significant hurdles in ...
+  authors: Haiyang JinQing Wang (Vincent, 王庆)Yu-Fang YangHan ZhangMengyu GaoShuxian JinSharon ChenTing XuZheng YuanRuiJi ChenQinyu XiaoJinbiao YangXindi WangHaiyang GengJianqiao GeWeiwei WangXi ChenLei ZhangXi-Nian ZuoHu Chuan-Peng
   link:
-    url: https://arxiv.org/abs/2205.10346
-    display: arXiv:2205.10346 (2022)
+    url: https://psyarxiv.com/ac9by
+    display: 10.31234/osf.io/ac9by
+  highlight: 1
+
+- title: 'What are we talking about when we talk about "self-reference": A cognitive ontology database of fMRI-based  self-reference studies'
+  authors: Sun Shuting, Wang Nan, Wen Jiahui, Hu chuanpeng
+  description: Self-reference (or Self-referential processes) is an important concept in cognitive psychology and cognitive neuroscience. It refers to cognitive processing of information relevant to self....
+  link:
+    url: http://www.chinaxiv.org/abs/202207.00005
+    display: chinaXiv:202207.00005
   highlight: 1

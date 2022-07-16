@@ -1,0 +1,11 @@
+<div class="well">
+    <h4>Blogs</h4>
+
+    {% for post in site.posts %}
+    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+    {{ post.excerpt }}
+    {% endfor %}
+
+    <h4><a href="{{ site.url }}{{ site.baseurl }}/post/">... see all blogs</a></h4>
+
+</div>
