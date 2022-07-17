@@ -1,20 +1,13 @@
-- name: Chuan Peng Hu
-  info: School of psychology, Nanjing Normal University
+- name: Case
+  info: None
   photo: cat.jpg
-  email: hcp4715@hotmail.com
-  number_educ: 3
-  education1: Bachelor of law, Bachelor of psychology, 2009, Hubei University
-  education2: Master of Educational Psychology, 2012, Hubei University
-  education3: Doctor of social psychology, 2017, Tsinghua University
-  education4:
-  education5:
+  email: xx@xx.xx
+  number_educ: 1
+  education1: 
 
-- name: Chuan Peng Hu
-  info: School of psychology, Nanjing Normal University
-  email: hcp4715@hotmail.com
-  number_educ: 3
-  education1: Bachelor of law, Bachelor of psychology, 2009, Hubei University
-  education2: Master of Educational Psychology, 2012, Hubei University
-  education3: Doctor of social psychology, 2017, Tsinghua University
-  education4:
-  education5:
+- name: Case2
+  info: None
+  photo: cat.jpg
+  email: xx@xx.xx
+  number_educ: 1
+  education1: 
